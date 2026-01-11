@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background:blue;
+    color: red;
+    padding-left: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+
+}
+.form{
+    
+    /* margin: 30px 70px; */
+    /* top: 20px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 75%;
+    /* height: 150px; */
+    padding: 25px 0px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgba(22, 4, 17, 0.50);
+
+
+}
+
+#add-btn{
+    background:blue;
+    width:50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    font-size: large;
+    border: none;
+    font-weight: 600;
+    /* cursor: pointer; */
+
+}
+.inputs{
+    width: 23%;
+}
+.cards
+{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.card{
+
+    width: 18rem;
+    height: 150px;
+    background: blue;
+    
+    box-shadow: 0px 0px 10px rgba(22, 4, 17, 0.50);
+    
+    border: none;
+}
+.card-body{
+    color: white;
+    
+}
+
+.Transcation-table{
+    border:1px solid black;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 700;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(22, 4, 17, 0.50);
+   
+    
+    
+}
+#header-row{
+    background: blue;
+    color: white;
+    
+}
+#header-row th{
+    padding: 15px 10px;
+     font-size: large;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .header{
+        background: black;
+        width: 100%;
+    }
+    .form{
+         display: flex;
+         flex-direction:column;
+          align-items: center;
+          gap: 15px;
+          box-shadow: 0px 0px 10px rgba(81, 41, 41, 0.5);
+          border: none;
+
+    
+
+    }
+    .inputs{
+    width: 75%;
+}
+
+
+#add-btn{
+    background:black;
+    width:75%;
+    /* height: 50px; */
+    color: white;
+    border-radius: 8px;
+    /* font-size: large; */
+    /* border: none; */
+    /* font-weight: 600; */
+    /* cursor: pointer; */
+
+}
+
+.cards
+{
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    gap: 15px;
+}
+.card{
+    width: 175px;
+    height: 150px;
+   
+    background: rgb(40, 151, 220);
+}
+
+#header-row{
+    background: black;
+    color: white;
+    
+}
+
+
+}
+

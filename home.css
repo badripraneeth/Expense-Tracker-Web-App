@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent{
+    position: relative;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+
+.solid-circle{
+    
+     height: 750px;
+     width:750px;
+      background-color: blue;
+     border-radius: 50%;
+     position: absolute;
+     right: -375px;
+     top: -375px;
+     z-index: 1;
+
+}
+.header-home{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+     z-index: 2;
+     width:100%;
+     top: 20px;
+     padding:0px 25px;
+      
+}
+#click-here-btn{
+    background-color:red;
+    color:white;
+    font-size:large;
+    font-weight: 600;
+    border: none;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0,0.50);
+    border-radius:8px ;
+    /* cursor: pointer; */
+}
+#name{
+    color: blue;
+    font-size: 100px;
+}
+.form-floating{
+    box-shadow: 4px 4px 4px rgb(0,0, 0,0.50);
+    border-radius:8px ;
+}
+#login-btn{
+    background:blue;
+    color:white;
+    padding: 5px 15px;;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+
+}
+.main-content{
+    margin-left: 40px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .solid-circle{
+        width: 300px;
+        height: 300px;
+        right: -100px;
+        top: -100px;
+        background: black;
+    }
+    #name{
+        font-size: 50px;
+        color:black;
+    }
+    #click-here-btn{
+        background: aliceblue;
+        color: blueviolet;
+    }
+    #login-btn{
+      background:black;
+     
+
+}
+}
+    
